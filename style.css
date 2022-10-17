@@ -34,6 +34,7 @@ body {
 .title {
   font-family: 'Outfit', sans-serif;
   color: hsl(218, 44%, 22%);
+  font-size: 1.5em;
 }
 
 .subtitle {
