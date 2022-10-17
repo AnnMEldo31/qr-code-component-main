@@ -1,0 +1,42 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  position: relative;
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  border-radius: 4%;
+  padding: 15px;
+  box-shadow: 0px 0px 40px 2px hsl(220, 15%, 75%);
+  position: absolute;
+  left: calc(720px - 150px - 7.5px);
+  align-self: center;
+}
+
+.card img {
+  width: 300px;
+  border-radius: 5%;
+}
+
+.text {
+  width: 280px;
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(218, 44%, 22%);
+}
+
+.subtitle {
+  font-family: 'Outfit', sans-serif;
+  color: hsl(220, 15%, 55%);
+}
