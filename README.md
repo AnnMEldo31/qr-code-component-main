@@ -10,7 +10,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -34,11 +33,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-<!-- - Mobile-first workflow -->
+- Mobile-first workflow
 
 ### What I learned
 
-I learned how to use flexbox to vertically center a div.
+I learned how to use flexbox to vertically and horizontally center a div.
 
  
 ```css
@@ -46,14 +45,11 @@ I learned how to use flexbox to vertically center a div.
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-/* .card is the child div of .container and which needed to be vertically centered */
+/* .card is the child div of .container and which needed to be vertically and horizontally centered */
 ```
-
-### Continued development
-
-I would like to learn how to make this more responsive and mobile-screen-friendly.
 
 
 ### Useful resources
